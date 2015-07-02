@@ -1,0 +1,55 @@
+/***************************************** COMING SOON ***************************************/
+/***************************************** EVENTS SPLASH ***************************************/
+
+nav#events_list{
+	
+	 margin: 1em auto 0;
+    padding: 0 2em;
+    text-align: center;
+}
+
+nav#events_list li{
+	display: inline-block;
+	padding:3em 10px 10px 6em;
+	cursor: pointer;
+	text-align: center;
+	-webkit-transition: all .3s ease ;
+	-o-transition: all .3s ease ;
+	transition: all .3s ease ;
+}
+
+nav#events_list li a{
+	text-decoration:none;
+	color:#2f889a;
+}
+
+nav#events_list li:hover{
+
+	-webkit-transform: translateY(-25px);
+	-ms-transform: translateY(-25px);
+	-o-transform: translateY(-25px);
+	transform: translateY(-25px);
+}
+
+
+nav#events_list li img{
+
+	max-width:150px;
+}
+
+.clearfix:after{
+	content:'';
+	display: table;
+	clear:both;
+}
+
+
+.clearfix::after {
+  content: '';
+  width: 0px;
+  height: 0;
+  line-height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
